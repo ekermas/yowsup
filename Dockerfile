@@ -14,3 +14,5 @@ RUN pip install -r /opt/pip/requirements.txt
 RUN mkdir /opt/yowsup
 
 RUN git clone https://github.com/mister87/yowsup.git /opt/yowsup
+
+COPY 79067894485/ /root/.yowsup/79067894485/
